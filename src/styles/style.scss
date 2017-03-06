@@ -1,10 +1,106 @@
+/*--------------------------------------------------
+ALWAYS INCLUDE
+--------------------------------------------------*/
+
 * {
-	font-family: Helvetica, Arial, sans-serif;
-	box-sizing: border-box;
+    box-sizing: border-box;
 }
 
-h1 {
-	font-size: 300px;
-	text-align: center;
-	color: fuchsia;
+img {
+    max-width: 100%;
+}
+
+
+/*--------------------------------------------------
+WRAPPER CONTENT
+--------------------------------------------------*/
+
+#wrapper {
+    position: relative;
+}
+
+.skyline {
+    width: 100%;
+}
+
+.logo {
+    width: 12%;
+    border: 4px solid white;
+    border-radius: 50%;
+    position: absolute;
+    left: 10%;
+    top: 80%;
+}
+
+
+/*--------------------------------------------------
+MAIN CONTENT
+--------------------------------------------------*/
+
+.content {
+    width: 65%;
+    margin: 50px 20%;
+}
+
+.left,
+.middle {
+    padding: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.left {
+    width: 30%;
+    color: grey;
+    padding-top: 100px;
+}
+
+.left-title {
+    color: black;
+}
+
+.middle {
+    width: 65%;
+}
+
+a {
+    color: blue;
+}
+
+.classroom {
+    max-width: 100%;
+}
+
+
+/*--------------------------------------------------
+FIXED BANNER CONTENT
+--------------------------------------------------*/
+
+#banner {
+    position: fixed;
+    background: white;
+    border: 1px solid grey;
+    bottom: 10%;
+    right: 0;
+    border-radius: 5%;
+    width: 300px;
+}
+
+#banner-top {
+    border-bottom: 1px solid grey;
+}
+
+#bottom-left {
+    width: 50px;
+}
+
+#bottom-right {
+    background-color: #7ac2f4;
+    color: white;
+}
+
+#bottom-left,
+#bottom-middle,
+#bottom-right {
+    display: inline-block;
 }
